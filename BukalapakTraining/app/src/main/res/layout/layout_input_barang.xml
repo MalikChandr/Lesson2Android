@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edtBarang"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nama barang"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtHarga"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtBarang"
+        android:ems="10"
+        android:hint="Harga barang"
+        android:text="Rp. "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtHarga"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Deskripsi" />
+
+</RelativeLayout>
